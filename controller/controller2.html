@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "app">
+<head>
+	<meta charset="UTF-8">
+	<title>angularjs controller</title>
+</head>
+<body>
+	<div ng-controller="HelloAngular">
+		<p>{{greeting.text}},Angular</p>
+		<p>{{root}},Angular</p>
+	</div>
+	<div ng-controller="rootCtrl">
+		<p ng-click="console()">{{greeting.text}},Angular</p>
+	</div>
+	<script type="text/javascript" src="../js/angular.js" ></script>
+	<script type="text/javascript" src="./js/helloAngular_MVC.js" ></script>
+</body>
+</html>
