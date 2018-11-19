@@ -30,7 +30,17 @@ $ git error 出现问题之后，找到.git 文件下的错误文件删除之后
 
 合并某分支到当前分支：git merge <name>
 
-删除分支：git branch -d <name>	
+删除分支：git branch -d <name>
+
+
+$ git stash
+
+添加远程库：
+关联远程库:
+$ git remote add origin https://github.com/workTaking/angularjs.git
+
+把本内内容推送到远程库
+$ git push -u origin master
 
 
 		
