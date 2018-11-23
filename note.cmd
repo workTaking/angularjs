@@ -16,6 +16,8 @@ $ git status 查看状态
 
 $ git log    查看提交
 
+$ git log --pretty=oneline 一行
+
 $ git error 出现问题之后，找到.git 文件下的错误文件删除之后就可以了。
 			.git 隐藏文件查找，找到父级文件夹，工具——》 文件夹选项——》 查看 ——》显示隐藏文件
 
@@ -42,5 +44,12 @@ $ git remote add origin https://github.com/workTaking/angularjs.git
 把本内内容推送到远程库
 $ git push -u origin master
 
+
+
+github
+name:
+workTaking
+password:
+bingithub24
 
 		
