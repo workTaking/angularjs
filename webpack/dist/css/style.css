@@ -1,0 +1,41 @@
+.flex{
+	display:flex;
+}
+#img{
+	background:url(http://localhost:8888/images/05cc28845dffc389171ce41728a0bf87.jpg);
+}
+.scss{
+	font-size:20px;
+}
+
+.scss{
+	width:100px;
+	height:100px;
+	background:red;
+	position:relative;
+	animation:mymove 5s infinite;
+	-moz-animation:mymove 5s infinite; /* Firefox */
+	-webkit-animation:mymove 5s infinite; /* Safari and Chrome */
+	-o-animation:mymove 5s infinite; /* Opera */
+	}
+
+@keyframes mymove
+{
+from {top:0px;}
+to {top:200px;}
+}
+html,body{
+	padding:0px;
+	margin:0px;
+	background-color:red;
+	display:flex;
+}
+
+ul,li{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+.flex-div{
+	display:flex;
+}

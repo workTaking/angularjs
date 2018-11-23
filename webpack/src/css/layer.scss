@@ -1,0 +1,20 @@
+.scss{
+	font-size:20px;
+}
+
+.scss{
+	width:100px;
+	height:100px;
+	background:red;
+	position:relative;
+	animation:mymove 5s infinite;
+	-moz-animation:mymove 5s infinite; /* Firefox */
+	-webkit-animation:mymove 5s infinite; /* Safari and Chrome */
+	-o-animation:mymove 5s infinite; /* Opera */
+	}
+
+@keyframes mymove
+{
+from {top:0px;}
+to {top:200px;}
+}

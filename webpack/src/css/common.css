@@ -1,0 +1,18 @@
+@import './flex.css';
+@import './layer.scss';
+
+html,body{
+	padding:0px;
+	margin:0px;
+	background-color:red;
+	display:flex;
+}
+
+ul,li{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+.flex-div{
+	display:flex;
+}
