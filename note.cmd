@@ -6,17 +6,31 @@ $ git init 创建仓库
 
 $ git add filesname 提交文件（文件夹）到暂存区
 
+$ rm file  删除文件
+
 $ git commit -m "注释" 将缓存区内容添加到本地仓库
 
 $ git reset --hard HEAD^ 将版本回退到上一个版本
 
-$ git reset --hard  版本号前几（5）位 将版本跳转到指定版本
+$ git reset --hard 版本号前几（5）位   将版本跳转到指定版本
 
 $ git status 查看状态
 
 $ git log    查看提交
 
 $ git log --pretty=oneline 一行
+
+$ git log > filename 将会把版本信息生成文件
+$ git log --pretty=oneline > filename 将会把版本信息生成文件
+
+
+$ git diff  工作区与暂存区区别
+
+git diff > patch patch是生成的文件名字
+
+git diff --cached > patch //是将我们暂存区与版本库的差异做成补丁
+
+git diff HEAD > patch //是将工作区与版本库的差异做成补丁
 
 $ git error 出现问题之后，找到.git 文件下的错误文件删除之后就可以了。
 			.git 隐藏文件查找，找到父级文件夹，工具——》 文件夹选项——》 查看 ——》显示隐藏文件
@@ -52,4 +66,13 @@ workTaking
 password:
 bingithub24
 
+
+git GUI here
+
+
+error:
+	1.git diff [<option>] [<commit> [<commit>]] [--] [<path>...]
 		
+工作区：现在的文件
+暂存区：$ git add file 
+版本库：$ git commit -m "注释"		
