@@ -63,11 +63,7 @@ $ git push -u origin master
 
 
 
-github
-name:
-workTaking
-password:
-bingithub24
+
 
 
 git GUI here
@@ -78,4 +74,9 @@ error:
 		
 工作区：现在的文件
 暂存区：$ git add file 
-版本库：$ git commit -m "注释"		
+版本库：$ git commit -m "注释"	
+
+
+
+
+
